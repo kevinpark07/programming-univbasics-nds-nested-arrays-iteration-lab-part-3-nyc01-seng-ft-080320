@@ -8,11 +8,11 @@ def join_nested_strings(src)
     inner_i = 0 
     while inner_i < src[i].length do
          if src[i][inner_i] == src[i][inner_i].to_s 
-        final_string << src[i][inner_i]
-        inner_i += 1  
+          final_string << src[i][inner_i]
+        end
+        inner_i += 1 
       end
       i += 1 
     end
   final_string.join 
-  end
 end
