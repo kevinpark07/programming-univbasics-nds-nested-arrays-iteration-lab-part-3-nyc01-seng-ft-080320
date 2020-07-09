@@ -12,5 +12,7 @@ def join_nested_strings(src)
         inner_i = 1  
       end
       i += 1 
-      final_string.join 
+    end
+  final_string.join 
+  end
 end
