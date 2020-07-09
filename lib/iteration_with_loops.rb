@@ -4,9 +4,9 @@ def join_nested_strings(src)
   i = 0 
   final_string = []
   
-  while i < src.length do
+  while i < src.count do
     inner_i = 0 
-    while inner_i < src[i].length do
+    while inner_i < src[i].count do
       if src[i][inner_i] == String 
         final_string << src[i][inner_i]
         inner_i = 1  
