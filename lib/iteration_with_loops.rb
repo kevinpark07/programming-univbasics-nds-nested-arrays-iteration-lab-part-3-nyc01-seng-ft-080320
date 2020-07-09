@@ -13,5 +13,5 @@ def join_nested_strings(src)
       end
       i += 1 
     end
-    final_string
+    final_string.join 
 end
